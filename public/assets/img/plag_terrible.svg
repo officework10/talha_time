@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="Terrible" transform="translate(-878 -471)">
+    <g id="Rectangle_434" data-name="Rectangle 434" transform="translate(878 471)" fill="#fff" stroke="#e1e6eb" stroke-width="1">
+      <rect width="64" height="64" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="63" height="63" rx="31.5" fill="none"/>
+    </g>
+    <g id="Group_1977" data-name="Group 1977" transform="translate(890 482)">
+      <line id="Line_45" data-name="Line 45" x2="0.022" transform="translate(13.333 15.555)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="Line_46" data-name="Line 46" x2="0.022" transform="translate(26.666 15.555)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_1434" data-name="Path 1434" d="M9.5,16.534a7.777,7.777,0,0,1,11.11,0" transform="translate(4.945 10.688)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_1435" data-name="Path 1435" d="M18.257,19.568a4.444,4.444,0,1,0,6.437.067L21.444,16l-3.186,3.568Z" transform="translate(14.112 12.89)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_1436" data-name="Path 1436" d="M42.7,26.371A19.941,19.941,0,1,0,27.444,42.506" transform="translate(-3 -3)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

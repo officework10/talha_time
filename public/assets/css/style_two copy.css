@@ -1,0 +1,500 @@
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+.result_select_dropdown {
+    border: 0px solid black !important;
+}
+
+
+.textgreenrrsult {
+    color: #56BE30 !important;
+    font-weight: 700 !important;
+}
+
+.textgreen {
+    color: #56BE30 !important;
+}
+
+.bg_black {
+    background-color: #000 !important;
+}
+
+.bg_green {
+    background-color: #56BE30 !important;
+}
+
+.text_green {
+    color: #56BE30 !important;
+}
+
+.green {
+    color: #38a169 !important;
+}
+
+input:disabled {
+    background-color: #e0f2fe;
+    /* Tailwind bg-sky-100 ka equivalent hex */
+}
+
+.input {
+
+
+    width: 100%;
+    height: 43px;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    padding-left: 7px !important;
+    padding-right: 1px !important;
+    border-radius: 6px !important;
+    border: 1px solid #d2d4d8 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: white;
+    color: #4a5568;
+    font-size: 15px !important;
+    border: 1px solid #56BE30 !important;
+}
+
+.textareaInput {
+    width: 100%;
+    height: 100px;
+    padding: 8px 16px !important;
+    padding-left: 10px !important;
+    border-radius: 12px !important;
+    border: 1px solid #d2d4d8 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.input_search:focus {
+    border-radius: 12px !important;
+    border: 1px solid #d2d4d8 !important;
+    box-shadow: 0 0 0 1px #d2d4d8;
+    /* focus:ring-green-500 */
+    outline: none !important;
+}
+
+.select {
+    /* shadow */
+    width: 100% !important;
+    height: 43px !important;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    padding-left: 7px !important;
+    padding-right: 1px !important;
+    padding-left: 10px !important;
+    border-radius: 6px !important;
+    border: 1px solid #56BE30 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: white;
+    font-size: 15px !important;
+    color: #4a5568;
+}
+
+
+.contentAll p::first-letter {
+    text-transform: capitalize;
+}
+
+.contentAll span::first-letter {
+    text-transform: capitalize;
+}
+
+.contentAll div::first-letter {
+    text-transform: capitalize;
+}
+
+.contentAll b::first-letter {
+    text-transform: capitalize;
+}
+
+.contentAll ul li::first-letter {
+    text-transform: capitalize;
+}
+
+.contentAll strong::first-letter {
+    text-transform: capitalize;
+}
+
+.contentAll .contentp {
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contentAll .contenth2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2px 0px;
+}
+
+.contentAll .contenth3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2px 0px;
+}
+
+.contentAll .contentul {
+    padding: 5px 27px;
+}
+
+.contentAll .contentul li {
+    padding: 5px 27px;
+    padding: 2px 0px;
+}
+
+.contentAll p {
+    padding-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.contentAll h2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2px 0px;
+}
+
+.contentAll h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2px 0px;
+}
+
+.contentAll ul {
+    padding: 5px 27px;
+    list-style: disc;
+    font-size: 16px;
+}
+
+.contentAll ul li {
+    padding: 5px 27px;
+    padding: 2px 0px;
+    font-size: 16px;
+}
+
+.contentAll a {
+    text-decoration: underline;
+}
+
+.contentAll table {
+    border: 1px solid black;
+    margin: 10px 0px;
+    overflow: auto;
+}
+
+.contentAll table tr {
+    border: 1px solid black;
+}
+
+.contentAll table tr td {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.contentAll table tr th {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.contentAll table tr:hover {
+    background-color: rgb(211, 211, 211)
+}
+
+.contentAll div,
+table.col-12 {
+    max-width: 100%;
+    width: 100%;
+}
+
+.contentAll tr:first-child {
+    background-color: #727eca;
+    color: white;
+    font-weight: 500 !important;
+}
+
+
+
+/* calculator details css  start */
+/* MAIN CONTENT WRAPPER */
+.contentAll {
+    max-width: 100% !important;
+    overflow-x: auto;
+    /* padding: 15px; */
+    font-family: "Inter", sans-serif;
+    color: #222;
+    line-height: 1.7;
+}
+
+/* FIX FOR KATEX */
+.katex-display {
+    width: auto !important;
+    overflow-x: auto;
+}
+
+/* PARAGRAPHS */
+.contentAll p {
+    margin: 4px 0;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    line-height: 27px;
+    color: #000000;
+}
+
+/* LISTS */
+.contentAll ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.contentAll ol {
+    padding-left: 25px !important;
+    margin: 5px 0;
+    list-style-type: decimal !important;
+}
+
+.contentAll ol li {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 6px 0;
+}
+
+.contentAll ul li {
+    color: #000000;
+    padding: 3px 0;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.contentAll ul {
+    list-style-type: disc !important;
+}
+
+.contentAll p img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* HEADINGS */
+.contentAll h2,
+.contentAll h3,
+.contentAll h4 {
+    font-weight: 700;
+    color: #000000;
+    margin: 5px 0px 5px;
+    line-height: 1.3;
+}
+
+.contentAll h2 {
+    font-size: 22px;
+}
+
+.contentAll h3 {
+    font-size: 20px;
+}
+
+.contentAll h4 {
+    font-size: 19px;
+}
+
+/* BOLD TEXT INSIDE HEADINGS */
+.contentAll h2 strong,
+.contentAll h3 strong,
+.contentAll h4 strong,
+.contentAll h2 b,
+.contentAll h3 b,
+.contentAll h4 b {
+    color: #000000;
+}
+
+/* TABLE DESIGN */
+
+.contentAll table,
+.contentAll td,
+.contentAll th {
+    border: 1px solid #9f9d9d;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contentAll tr:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+}
+
+.contentAll table thead tr:first-child {
+    background-color: #000000;
+    color: white;
+    font-weight: 500 !important;
+}
+
+/* LINKS */
+.contentAll a {
+    color: #000000 !important;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.contentAll table {
+    border: 1px solid black;
+    margin: 10px 0px;
+    overflow: auto;
+}
+
+.contentAll table tr {
+    border: 1px solid black;
+}
+
+.contentAll table tr td {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.contentAll table tr th {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.contentAll table tr:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+.contentAll div,
+table.col-12 {
+    max-width: 100%;
+    width: 100%;
+}
+
+.contentAll tr:first-child {
+    background-color: #99ea48;
+    color: #000;
+    font-weight: 500 !important;
+}
+
+
+.label {
+    font-size: 0.875rem;
+    /* Equivalent to text-sm in Tailwind */
+    padding-left: 0.5rem;
+    /* Equivalent to px-2 in Tailwind */
+    padding-right: 0.5rem;
+    font-weight: 500;
+    /* Equivalent to font-medium in Tailwind */
+    color: #000000;
+    /* Equivalent to text-gray-700 in Tailwind */
+    font-weight: bold;
+}
+
+#root {
+    overflow: hidden !important;
+}
+
+.input_unit {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000;
+    font-size: 0.9rem;
+    pointer-events: none;
+}
+
+input[type="radio"]:checked {
+    background-color: #56BE30 !important;
+    color: #56BE30 !important;
+    width: 17px !important;
+    border: 2px solid black !important;
+}
+
+input[type="checkbox"] {
+    accent-color: #56BE30 !important;
+    color: #56BE30 !important;
+    width: 20px !important;
+    height: 18px !important;
+    border: 2px solid black !important;
+}
+
+.bg-gradient {
+    background: green;
+}
+
+.days_class_active {
+    background: #38a169;
+    color: white;
+}
+
+.input_gray_color {
+    background: #f8f6f6 !important;
+}
+
+select {
+    border-radius: 9999px;
+    /* rounded-full */
+    padding-left: 1rem;
+    /* px-4 */
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    /* py-2 */
+    padding-bottom: 0.5rem;
+    background-color: white;
+    /* bg-white */
+    width: 100%;
+    /* w-full */
+    text-align: center;
+    /* text-center */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1),
+        0 1px 2px rgba(0, 0, 0, 0.06);
+    /* shadow */
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 8px 16px !important;
+    padding-left: 10px !important;
+    border-radius: 12px !important;
+    /* border: 1px solid #56BE30 !important; */
+    outline: none !important;
+    box-shadow: none !important;
+
+
+}
+
+.tagsUnit {
+    background: #56BE30 !important;
+    color: #ffffff;
+}
+
+.hover_tags:hover {
+    background: #000000;
+    color: white;
+}
+
+
+.v_active {
+    background: #49987cde;
+    color: white;
+}
+
+.t_select {
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+
+}
+
+.none_select {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+
+
+
+
+/* Pregnancy Calculator */

@@ -1,0 +1,477 @@
+:root {
+    --light-blue: #1670a7;
+    --dark-blue: #094365;
+    --light-green: #119154;
+    --white: #fff;
+    --black: #000;
+    --text-color: #444;
+    --text-light-blue: #444;
+    --text-green: #0ca352;
+    --bs-color: #0a146e;
+    /* --bs-color: rgb(10, 20, 110); */
+    --bg-gray: #f5f5f5;
+    --btn-bg-blue: #0072b7;
+    --bg-yellow: rgb(255, 159, 0);
+    --bg-light-blue: rgb(0, 194, 219);
+    --bg-blue: #20bec8;
+    --bg-green: #10951d;
+    --bg-turmeric: #cabe52;
+    --bg-red: #ff0000;
+    --bg-sky: #f6fafc;
+    --th-gradient: linear-gradient(45deg, #156ca1, #79cdff);
+    --table-border: #62b4e7;
+}
+
+.green-color {
+    color: var(--text-green);
+}
+
+.bg-blue {
+    background: var(--bg-blue);
+}
+
+.bg-theme {
+    background: var(--btn-bg-blue);
+}
+
+.bg-dark-blue {
+    background: var(--dark-blue);
+}
+
+.bg-green {
+    background: var(--bg-green);
+}
+
+.bg-turmeric {
+    background: var(--bg-turmeric);
+}
+
+.bg-red {
+    background: var(--bg-red);
+}
+
+.bg-sky {
+    background: var(--bg-sky);
+}
+
+.bg-header-footer {
+    background: var(--bs-color) !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.loader_ajax {
+    width: 100px;
+    /* height: 20px; */
+    border-radius: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hidden_loader {
+    display: none;
+}
+
+/* LOADER 4 */
+
+#loader-4 span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: var(--light-blue);
+    margin: 12px 5px;
+    opacity: 0;
+}
+
+#loader-4 span:nth-child(1) {
+    animation: opacitychange 1s ease-in-out infinite;
+}
+
+#loader-4 span:nth-child(2) {
+    animation: opacitychange 1s ease-in-out 0.33s infinite;
+}
+
+#loader-4 span:nth-child(3) {
+    animation: opacitychange 1s ease-in-out 0.66s infinite;
+}
+
+@keyframes opacitychange {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+    }
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.bottom-right-div {
+    position: fixed;
+    bottom: -100px;
+    /* Start from below the screen */
+    right: 10px;
+    z-index: 99999000;
+    width: 400px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: bottom 0.5s ease-in-out;
+    /* Smooth transition */
+}
+
+.bottom-right-div p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.highcharts-credits {
+    display: none;
+}
+
+.orange-text {
+    color: #ff6d00;
+}
+
+.tagsUnit {
+    background: rgb(40 69 245) !important;
+    color: #ffffff;
+}
+
+.hover_tags:hover {
+    background: #55be30;
+    color: white;
+}
+
+.reset {
+    background: #000000;
+}
+
+.reset:hover {
+    background: rgb(40 69 245);
+    color: white;
+}
+
+.result_box {
+    background: aliceblue;
+}
+
+label {
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+
+.border-b {
+    /* cursor: pointer; */
+}
+
+input {
+    width: 100%;
+    height: 45px;
+    padding: 8px 16px;
+    border-radius: 12px !important;
+    border: 1px solid rgb(40 69 245) !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: white;
+    color: #4a5568;
+    /* Tailwind's text-gray-800 */
+    placeholder-color: #b7b7b7;
+    /* Custom placeholder color */
+}
+
+input:focus {
+    border-radius: 12px !important;
+    border: 1px solid rgb(40 69 245) !important;
+    box-shadow: 0 0 0 2px #38a169;
+    outline: none !important;
+}
+
+select {
+    width: 100%;
+    height: 45px;
+    padding: 8px 16px !important;
+    padding-left: 10px !important;
+    border-radius: 12px !important;
+    border: 1px solid rgb(40 69 245) !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: white;
+    color: #4a5568;
+    /* Equivalent to text-gray-800 in Tailwind */
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 8px 16px !important;
+    padding-left: 10px !important;
+    border-radius: 12px !important;
+    border: 1px solid rgb(40 69 245) !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input[type="radio"]:checked {
+    background-color: rgb(40 69 245) !important;
+    color: rgb(40 69 245) !important;
+    width: 17px;
+}
+
+/* input[type="checkbox"]:checked {
+        background-color: #99EA48!important;
+        color: #99EA48!important;
+        width: 17px;
+    } */
+
+input[type="checkbox"] {
+    accent-color: rgb(40 69 245) !important;
+    color: rgb(40 69 245) !important;
+    width: 20px;
+    height: 18px;
+}
+
+.textgreenrrsult {
+    color: rgb(40 69 245) !important;
+    font-weight: 700 !important;
+}
+
+.textgreen {
+    color: rgb(40 69 245) !important;
+}
+
+.bg_black {
+    background-color: #000 !important;
+}
+
+.bg_green {
+    background-color: rgb(40 69 245) !important;
+}
+
+.text_green {
+    color: rgb(40 69 245) !important;
+}
+
+.green {
+    color: rgb(40 69 245) !important;
+}
+
+.label {
+    font-size: 0.875rem;
+    /* Equivalent to text-sm in Tailwind */
+    padding-left: 0.5rem;
+    /* Equivalent to px-2 in Tailwind */
+    padding-right: 0.5rem;
+    font-weight: 500;
+    /* Equivalent to font-medium in Tailwind */
+    color: #4b5563;
+    /* Equivalent to text-gray-700 in Tailwind */
+}
+
+.input_unit {
+    position: absolute;
+    right: 0.75rem;
+    /* Equivalent to right-3 in Tailwind */
+    top: 58%;
+    transform: translateY(-50%);
+    color: #000000;
+    /* Equivalent to Tailwind's text-blue */
+    font-size: 1rem;
+    pointer-events: none;
+    /* Disables interaction on the unit */
+}
+
+.spinner {
+    width: 56px;
+    height: 56px;
+    border: 11.2px rgb(40 69 245)double;
+    border-left-style: solid;
+    border-radius: 50%;
+    animation: spinner-aib1d7 0.75s infinite linear;
+}
+
+@keyframes spinner-aib1d7 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.fraction {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.5rem 0.3rem 1.3rem;
+    font-size: 0.9em;
+}
+
+.fraction .num {
+    top: 0;
+    padding: 0 0.3rem;
+    display: block;
+    white-space: nowrap;
+    border-bottom: 1px solid #444;
+}
+
+.visually-hidden {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.fraction .den {
+    line-height: 15px;
+    padding: 0.5rem 0.3rem 0 0.3rem;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+}
+
+/* active class */
+
+/* body{
+    font-family: "Poppins";
+} */
+
+.dropdown-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropdown-menu li {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dropdown-menu li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.font-russo {
+    font-family: cursive;
+}
+
+/* home categoty */
+.green_color li.active {
+    background-color: black;
+}
+
+.green_color li.active span {
+    color: white;
+    /* Change text color */
+}
+
+.green_color li span {
+    transition: all 0.3s ease;
+}
+
+.green_color li:hover {
+    background-color: #99EA48;
+}
+
+.green_color li:hover span {
+    color: black !important;
+}
+
+/* Targeting the SVG path in the active state */
+.green_color li.active span .svg-path {
+    fill: white;
+    /* Change SVG fill color when active */
+}
+
+/* Targeting the SVG path on hover */
+.green_color li:hover span .svg-path {
+    fill: black !important;
+    /* Change SVG fill color on hover */
+}
+
+/* home categoty */
+
+/* home section */
+.green_color li.active {
+    background-color: black;
+}
+
+.green_color li.active a {
+    color: white;
+    /* Change text color */
+}
+
+.green_color li a {
+    transition: all 0.3s ease;
+}
+
+.green_color li:hover {
+    background-color: #99EA48;
+}
+
+.green_color li:hover a {
+    color: black !important;
+}
+
+/* Targeting the SVG path in the active state */
+.green_color li.active a .svg-path {
+    fill: white;
+    /* Change SVG fill color when active */
+}
+
+/* Targeting the SVG path on hover */
+.green_color li:hover a .svg-path {
+    fill: black !important;
+    /* Change SVG fill color on hover */
+}
+
+/* home section */
+
+/* other Menu */
+
+.green_color ul li.active {
+    background-color: black;
+}
+
+.green_color ul li.active a {
+    color: white;
+    /* Change text color */
+}
+
+.green_color ul li.active a svg path {
+    fill: black;
+    /* Change SVG color */
+}
+
+.green_color ul li a {
+    transition: all 0.3s ease;
+}
+
+.green_color ul li:hover {
+    background-color: #99EA48;
+    color: black !important;
+}
+
+.green_color ul li:hover a {
+    color: black !important;
+}
+
+/* other Menu */
+
+
+
+/* active class */

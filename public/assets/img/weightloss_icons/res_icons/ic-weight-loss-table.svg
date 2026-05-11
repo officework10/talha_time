@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59.506" height="54.547" viewBox="0 0 59.506 54.547">
+  <g id="ic-weight-loss-table" transform="translate(0 -1)">
+    <path id="Path_4695" data-name="Path 4695" d="M52.068,1H7.438A7.447,7.447,0,0,0,0,8.438V48.109a7.447,7.447,0,0,0,7.438,7.438H52.068a7.447,7.447,0,0,0,7.438-7.438V8.438A7.447,7.447,0,0,0,52.068,1Z" transform="translate(0 0)" fill="#cfd8dc"/>
+    <path id="Path_4696" data-name="Path 4696" d="M7.438,1H52.068a7.438,7.438,0,0,1,7.438,7.438v8.678H0V8.438A7.438,7.438,0,0,1,7.438,1Z" transform="translate(0 0)" fill="#2196f3"/>
+    <g id="Group_2663" data-name="Group 2663" transform="translate(4.959 22.075)">
+      <path id="Path_4697" data-name="Path 4697" d="M24.315,15.7H15.637V9.5h8.678Zm-13.637,0H2V9.5h8.678Zm0,4.959v6.2H2v-6.2Zm4.959,0h8.678v6.2H15.637Zm8.678,11.157v6.2H15.637v-6.2ZM2,35.534V31.815h8.678v6.2h-6.2A2.483,2.483,0,0,1,2,35.534Z" transform="translate(-2 -9.5)" fill="#fff"/>
+    </g>
+    <path id="Path_4698" data-name="Path 4698" d="M7.438,46.15a2.483,2.483,0,0,1-2.479-2.479V39.951h8.678v6.2Zm11.157,0v-6.2h8.678v6.2ZM4.959,34.993v-6.2h8.678v6.2Zm13.637,0v-6.2h8.678v6.2ZM4.959,23.835v-6.2h8.678v6.2Zm13.637,0v-6.2h8.678v6.2ZM0,4V43.671a7.447,7.447,0,0,0,7.438,7.438H29.753V12.678H0Z" transform="translate(0 4.438)" fill="#b0bec5"/>
+    <path id="Path_4699" data-name="Path 4699" d="M29.753,1H7.438A7.438,7.438,0,0,0,0,8.438v8.678H29.753Z" transform="translate(0 0)" fill="#1e88e5"/>
+    <path id="Path_4700" data-name="Path 4700" d="M24.315,9.5H15.637v6.2h8.678Zm-13.637,0H2v6.2h8.678Zm0,11.157H2v6.2h8.678Zm13.637,0H15.637v6.2h8.678Zm0,11.157H15.637v6.2h8.678Zm-13.637,0H2v3.719a2.483,2.483,0,0,0,2.479,2.479h6.2Z" transform="translate(2.959 12.575)" fill="#dedede"/>
+    <g id="Group_2664" data-name="Group 2664" transform="translate(32.232 22.075)">
+      <path id="Path_4701" data-name="Path 4701" d="M13,9.5h8.678v6.2H13Zm0,22.315h8.678v6.2H13Zm0-11.157h8.678v6.2H13Zm13.637,0h8.678v6.2H26.637Zm0-11.157h8.678v6.2H26.637Zm6.2,28.513h-6.2v-6.2h8.678v3.719A2.483,2.483,0,0,1,32.835,38.013Z" transform="translate(-13 -9.5)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

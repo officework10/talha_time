@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 131.3 90.4" style="enable-background:new 0 0 131.3 90.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#1E5B80;stroke-width:1.4168;stroke-miterlimit:10;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{font-size:23.9913px;}
+	.st3{fill:none;stroke:#000000;stroke-width:0.5667;stroke-miterlimit:10;stroke-dasharray:5.6672,2.8336;}
+	.st4{fill:none;stroke:#000000;stroke-width:0.2388;stroke-miterlimit:10;}
+</style>
+<g id="Layer_x0020_1">
+	<polygon class="st0" points="41.2,0.7 130.2,0.7 90.1,89.7 1.1,89.7 	"/>
+	<text transform="matrix(1 0 0 1 60.4072 31.604)" class="st1 st2">f</text>
+	<line class="st3" x1="41.3" y1="0.4" x2="90.4" y2="89.4"/>
+	<line class="st3" x1="2.3" y1="88.3" x2="130.5" y2="0.4"/>
+	<rect x="66.6" y="43" transform="matrix(0.8511 -0.5249 0.5249 0.8511 -13.6447 43.1351)" class="st4" width="5.3" height="5.3"/>
+	<text transform="matrix(1 0 0 1 28.4746 62.2686)" class="st1 st2">e</text>
+</g>
+</svg>

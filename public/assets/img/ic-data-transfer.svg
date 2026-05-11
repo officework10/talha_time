@@ -1,0 +1,11 @@
+<svg id="ic-data-transfer" xmlns="http://www.w3.org/2000/svg" width="58.5" height="58.5" viewBox="0 0 58.5 58.5">
+  <path id="Path_5181" data-name="Path 5181" d="M66.85,18.645v-4H51.912a2,2,0,0,0-2,2V26.939L47.639,24.3l-3.032,2.609L50.4,33.635a2.019,2.019,0,0,0,3.032,0l5.789-6.728L56.185,24.3l-2.273,2.641V18.645ZM91.423,57.356l-5.789-6.728a2.019,2.019,0,0,0-3.032,0l-5.789,6.728,3.032,2.609,2.273-2.641v8.294H69.18v4H84.118a2,2,0,0,0,2-2V57.324l2.273,2.641Z" transform="translate(-39.031 -12.814)" fill="#a3b5be"/>
+  <path id="Path_5182" data-name="Path 5182" d="M22.9,211.708H2.5a2.5,2.5,0,0,0-2.5,2.5v27.037a2.5,2.5,0,0,0,2.5,2.5H22.9a2.5,2.5,0,0,0,2.5-2.5V214.208A2.5,2.5,0,0,0,22.9,211.708Z" transform="translate(0 -185.244)" fill="#f6b94c"/>
+  <g id="Group_10297" data-name="Group 10297" transform="translate(4.909 32.483)">
+    <path id="Path_5183" data-name="Path 5183" d="M39.273,267.861H54.856v4H39.273Zm0-8H54.856v4H39.273Zm0,16H54.856v4H39.273Z" transform="translate(-39.273 -259.862)" fill="#fff"/>
+  </g>
+  <path id="Path_5184" data-name="Path 5184" d="M287.69,0h-20.4a2.5,2.5,0,0,0-2.5,2.5V29.537a2.5,2.5,0,0,0,2.5,2.5h20.4a2.5,2.5,0,0,0,2.5-2.5V2.5A2.5,2.5,0,0,0,287.69,0Z" transform="translate(-231.69)" fill="#f56c61"/>
+  <g id="Group_10298" data-name="Group 10298" transform="translate(38.008 6.019)">
+    <path id="Path_5185" data-name="Path 5185" d="M304.062,56.153h15.583v4H304.062Zm0-8h15.583v4H304.062Zm0,16h15.583v4H304.062Z" transform="translate(-304.062 -48.154)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirect Trailing Slashes If Not A Folder
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_URI} !(.*)/$
+    RewriteCond %{REQUEST_URI} !^/livewire/ [NC]
+    RewriteRule ^(.*)$ $1/ [L,R=301]
+
+    # Handle the /public/ in the URL by redirecting to root (SEO)
+    RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
+    RewriteRule ^ %1 [L,R=301]
+
+    # Rule for assets: Map specific folders to the public directory
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(assets|css|js|images|icons|avatars|katex|build|lang|fonts)/(.*)$ public/$1/$2 [L,NC]
+    
+    # Special case for files directly in public
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(logo\.png|favicon\.ico|favicon\.png|blue-logo\.svg|robots\.txt|ads\.txt|sitemap\.xml)$ public/$1 [L,NC]
+
+    # Otherwise, handle via Front Controller
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ public/index.php [L]
+</IfModule>
